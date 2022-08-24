@@ -12,7 +12,7 @@ function signup() {
         return;
     }
 
-    axios.post('http//localhost:3000/signup', {
+    axios.post("http://localhost:3000/signup", {
 
         firstname,
         lastname,
@@ -41,7 +41,7 @@ function login() {
     let email = document.getElementById('email').Value;
     let password = document.getElementById('password').Value;
 
-    axios.post('http//localhost:3000/login', {
+    axios.post("http://localhost:3000/login", {
 
         email,
         password,
@@ -62,7 +62,7 @@ function login() {
 
 function getalluser() {
 
-    axios.post('http//localhost:3000/users',)
+    axios.get("http://localhost:3000/users",)
 
         .then(function (response) {
             console.log(response.data);
