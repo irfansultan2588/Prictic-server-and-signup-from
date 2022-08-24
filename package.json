@@ -1,0 +1,29 @@
+{
+  "name": "prictis-signup-from",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node appserver.mjs",
+    "dev": "nodemon appserver.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irfansultan2588/Prictic-server-and-signup-from.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irfansultan2588/Prictic-server-and-signup-from/issues"
+  },
+  "homepage": "https://github.com/irfansultan2588/Prictic-server-and-signup-from#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt-inzi": "^1.0.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  }
+}
